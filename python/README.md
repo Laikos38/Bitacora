@@ -1,3 +1,3 @@
 # Python
 
-- [Design Patterns](./Design%20Patterns/index.md)
+- [Design Patterns](./Design%20Patterns/README.md)
