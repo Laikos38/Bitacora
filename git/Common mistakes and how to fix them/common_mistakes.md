@@ -58,6 +58,27 @@ git commit
 This will undo the commit and then add a new commit in its place.
 
 <br>
+
+## 6. Shift-Deleted a file
+```
+git checkout -- <file>
+```
+This will bring back the last committed version of test.txt from your repo.
+
+Important: Only last committed version of the file is returned - any local changes you made before deletion are lost and any un-versioned files are not recovered.
+
+Now the syntax is a bit weird as -- is used without an option. But this is just a workaround so that git can distinguish between branch names and files names (for branches, you would use git checkout branch-name).
+
+<br>
+
+## 7. Reverting pushed commit
+```
+git revert <commit_hash_id> -m "<commit_message"
+```
+This does not remove your commit from history. It only adds another commit that reverts the changes.
+
+<br>
+<br>
 <br>
 
 <hr>
@@ -65,7 +86,15 @@ This will undo the commit and then add a new commit in its place.
 
 
 <small>
-Source: <a href="https://medium.com/@iAnkurBiswas/common-git-mistakes-and-how-to-fix-them-10184cd5fa77">
-Common mistakes and how to fix them
-</a>
+Sources:
+<ul>
+    <li>
+        <a href="https://medium.com/@iAnkurBiswas/common-git-mistakes-and-how-to-fix-them-10184cd5fa77">Common mistakes and how to fix them
+        </a>
+    </li>
+    <li>
+        <a href="https://dev.to/abh1navv/fixing-basic-mistakes-with-git-4m4l">Fixing basic mistakes with Git 
+        </a>
+    </li>
+</ul>
 </small>
