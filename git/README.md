@@ -4,4 +4,4 @@
 <br>
 
 ## TODO
-- Common mistakes and how to fix them [Here](https://dev.to/abh1navv/fixing-basic-mistakes-with-git-4m4l)
+- [Common mistakes and how to fix them](./Common%20mistakes%20and%20how%20to%20fix%20them/common_mistakes.md)
