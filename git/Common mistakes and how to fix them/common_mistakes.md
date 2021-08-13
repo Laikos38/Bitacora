@@ -52,7 +52,7 @@ git reset <file>
 If you have gone as far as committing that change, no need to worry. You just need to run an extra step before:
 ```
 git reset --soft HEAD~1
-git reset /assets/img/misty-and-pepper.jpg
+git reset <file>
 git commit
 ```
 This will undo the commit and then add a new commit in its place.
@@ -73,7 +73,7 @@ Now the syntax is a bit weird as -- is used without an option. But this is just 
 
 ## 7. Reverting pushed commit
 ```
-git revert <commit_hash_id> -m "<commit_message"
+git revert <commit_hash_id> -m "<commit_message>"
 ```
 This does not remove your commit from history. It only adds another commit that reverts the changes.
 
