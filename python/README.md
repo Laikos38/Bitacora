@@ -2,6 +2,7 @@
 
 ## Index
 - [Design Patterns](./Design%20Patterns/README.md)
+- [Django](./Django/README.md)
 
 <br>
 

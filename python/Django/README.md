@@ -1,6 +1,7 @@
 # Django
 
 ## Index
+- [Integrate Mypy in Django checks](./Integrate%20Mypy%20in%20Django%20checks/mypy_django_checks_integration.md)
 
 <br>
 
