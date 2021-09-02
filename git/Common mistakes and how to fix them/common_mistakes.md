@@ -78,6 +78,16 @@ git revert <commit_hash_id> -m "<commit_message>"
 This does not remove your commit from history. It only adds another commit that reverts the changes.
 
 <br>
+
+## 8. Delete a file and need to bring it back from Git
+```
+git restore path/to/file # discard current changes
+git restore --staged path/to/file # unstage staged file
+git restore --source <commit_hash_id> path/to/file  ## restore from specific commit hash
+```
+Once you run this command you cannot get back the changes you discard.
+
+<br>
 <br>
 <br>
 
