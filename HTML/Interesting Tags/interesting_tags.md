@@ -86,3 +86,90 @@ Renders as:
     </summary>
     Content #2
 </details>
+
+<br>
+
+# input types
+``` html
+<input type="color">
+```
+Renders as:
+<input type="color">
+
+``` html
+<input type="range" value="2" min="1" max="5">
+```
+Renders as:
+<input type="range" value="2" min="1" max="5">
+
+``` html
+<input type="datetime-local"> <!-- or date, datetime, time, week -->
+```
+Renders as:
+<input type="datetime-local">
+
+<br>
+
+# meter
+``` html
+<meter max="100" min="1" value="60"></meter>
+```
+Renders as:
+<meter max="100" min="1" value="60"></meter>
+
+<br>
+
+# progress
+``` html
+<progress></progress>
+```
+Renders as:
+<progress></progress>
+
+<br>
+
+# datalist
+``` html
+<input type="text" list="suggestions" placeholder="fruits">
+<datalist id="suggestions">
+    <option>Banana</option>
+    <option>Orange</option>
+    <option>Kiwi</option>
+    <option>Apple</option>
+</datalist>
+```
+Renders as:
+<input type="text" list="suggestions" placeholder="fruits">
+<datalist id="suggestions">
+    <option>Banana</option>
+    <option>Orange</option>
+    <option>Kiwi</option>
+    <option>Apple</option>
+</datalist>
+
+<br>
+
+# optgroup
+``` html
+<select>
+    <optgroup label="Fruits">
+        <option>Banana</option>
+        <option>Tangerine</option>
+    </optgroup>
+    <optgroup label="Vegetables">
+        <option>Lettuce</option>
+        <option>Spinach</option>
+    </optgroup>
+</select>
+```
+Renders as:
+<select>
+    <optgroup label="Fruits">
+        <option>Banana</option>
+        <option>Tangerine</option>
+    </optgroup>
+    <optgroup label="Vegetables">
+        <option>Lettuce</option>
+        <option>Spinach</option>
+    </optgroup>
+</select>
