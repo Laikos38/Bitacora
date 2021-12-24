@@ -1,6 +1,7 @@
 # Python
 
 ## Index
+- [Cool Stuff](./Cool%20Stuff/README.md)
 - [Design Patterns](./Design%20Patterns/README.md)
 - [Django](./Django/README.md)
 
