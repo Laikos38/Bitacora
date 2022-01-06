@@ -3,7 +3,7 @@
 [Django checks documentation](https://docs.djangoproject.com/en/3.2/topics/checks/)
 
 1. Install Mypy `pip install mypy`
-2. Create a check file with the folowing code:
+2. Create a check file with the following code:
 
 ```python
 import re
