@@ -16,7 +16,7 @@ from mypy import api
 @register()
 def mypy(app_configs, **kwargs) -> List:
     print("Performing mypy checks...\n")
-    results = api.run(["--config-file=./configs/mypy.ini", "-p", "ggwp"])
+    results = api.run(["--config-file=./configs/mypy.ini", "-p", "<the name of your base package/project>"])
     print("""####### MYPY #######""")
     error_messages = results[0]
     if not error_messages:
@@ -40,3 +40,13 @@ def mypy(app_configs, **kwargs) -> List:
 ```
 
 With this configuration, the check will never raise errors preventing the project to run, but it will prompt you the mypy warnings and errors.
+
+
+3. Lastly, you will need to include early in execution this function. I like to do it in the `__init__.py` file of the project:
+```python
+import importlib.util
+
+mypy_package = importlib.util.find_spec("mypy")
+if mypy_package:
+    from your_project.checks.mypy_check import mypy  # noqa
+```
