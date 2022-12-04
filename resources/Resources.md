@@ -9,6 +9,7 @@
 - [Records - db query tool](https://github.com/kennethreitz/records)
 - [zinc - search engine](https://github.com/zinclabs/zinc)
 - [meilisearch - search engine](https://github.com/meilisearch/meilisearch)
+- [realworld - real world project examples](https://github.com/gothinkster/realworld)
 
 ----------------------
 ## General purpose & tools
@@ -20,11 +21,16 @@
 - [Excalidraw - drawing tool](https://excalidraw.com/)
 - [Riju - all programming language playground](https://riju.codes/)
 - [JSONplaceholder](https://jsonplaceholder.typicode.com/)
+- [picsum - random images api](https://picsum.photos/)
 - [pdfdrive - pdf search engine](http://es.pdfdrive.com/)
 - [libgen - book repository](http://libgen.is/)
 - [photopea - online photoshop](https://www.photopea.com/)
 - [file converters and tools](https://www.online-convert.com/)
 - [video tooling](https://online-video-cutter.com/es/)
+- [carbon - image source code generator](https://carbon.now.sh/)
+- [favicon - favicon generator](https://favicon.io/)
+- [unminify](https://unminify.com/)
+
 
 ----------------------
 ## Books, Papers and posts
@@ -35,10 +41,17 @@
 
 ----------------------
 ## Front (HTML,CSS,Js) tools, generators & libraries
+- [design resources for developers](https://github.com/bradtraversy/design-resources-for-developers)
 - [tailwindcss](https://tailwindcss.com/)
 - [doodad pattern-generator](https://doodad.dev/pattern-generator/)
 - [animxyz](https://animxyz.com/)
 - [partyjs](https://party.js.org/)
+- [gradient generator & color tools](https://cssgradient.io/gradient-backgrounds/)
+- [fontjoy - font convinations generator](https://fontjoy.com/)
+- [logo ipsum - random logo generator](https://logoipsum.com/)
+- [boxshadows](https://box-shadow.dev/)
+
+
 
 ### Icons
 - [snoweb](https://www.snoweb-svg.com/)
