@@ -2,7 +2,7 @@
 
 The thing a love the most of Django is without a doubt its ORM. And sometimes, for really small projects that needs some advanced database queries, I don't wan't to use SQL and also don't wan't to create a full Django project just to enjoy its ORM. 
 
-So, this is a minimal guide on how to use the ORM with the minimal Django configuration possible.
+So, this is a guide on how to use the ORM with the minimal Django configuration possible.
 
 First install Django:
 
@@ -68,7 +68,7 @@ start_django()
 
 
 class ChatMessage(models.Model):
-    message = models.CharField(null=False, max_length=1000)
+    message = models.CharField(blank=False, null=False, max_length=1000)
     send_datetime = models.DateTimeField(auto_now_add=True)
     viewed = models.BooleanField(default=False)
 ```
