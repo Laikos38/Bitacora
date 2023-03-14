@@ -11,7 +11,7 @@
 - [meilisearch - search engine](https://github.com/meilisearch/meilisearch)
 - [realworld - real world project examples](https://github.com/gothinkster/realworld)
 
-----------------------
+
 ## General purpose & tools
 - [remove.bg - remove image background](https://www.remove.bg/)
 - [10015 - tools](https://10015.io/)
@@ -30,16 +30,17 @@
 - [carbon - image source code generator](https://carbon.now.sh/)
 - [favicon - favicon generator](https://favicon.io/)
 - [unminify](https://unminify.com/)
+- [Shots - Mockups and frames](https://shots.so/)
+- [Brandbird - Mockups and frames for social networking](https://www.brandbird.app/)
 
 
-----------------------
 ## Books, Papers and posts
 - [Hitchhiker's Guide to Python](https://github.com/realpython/python-guide)
 - [Free for dev - devops & hosting for free](https://free-for.dev/)
 
 
 
-----------------------
+
 ## Front (HTML,CSS,Js) tools, generators & libraries
 - [design resources for developers](https://github.com/bradtraversy/design-resources-for-developers)
 - [tailwindcss](https://tailwindcss.com/)
@@ -63,14 +64,14 @@
 - [covalent](https://teradata.github.io/covalent/v4/#/)
 - [nebular](https://akveo.github.io/nebular/docs/components/components-overview/)
 
-----------------------
+
 ## Photography
 - [skuawk](https://skuawk.com)
 
-----------------------
+
 ## IoT
 - [umbrel](https://umbrel.com/)
 
-----------------------
+
 ## Utils
 - [WatchYourLAN](https://github.com/aceberg/WatchYourLAN)
