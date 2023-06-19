@@ -77,3 +77,10 @@
 
 ## Utils
 - [WatchYourLAN](https://github.com/aceberg/WatchYourLAN)
+
+
+## AI tools
+- [DALLE2](https://openai.com/dall-e-2)
+- [Midjourney](https://www.midjourney.com/)
+- [Deep dream](https://deepdreamgenerator.com/)
+- [stockimg](https://stockimg.ai)
