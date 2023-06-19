@@ -55,16 +55,21 @@
 
 
 
-
 ### Icons
+- [Iconify](https://iconify.design/)
 - [snoweb](https://www.snoweb-svg.com/)
 - [iconduck](https://iconduck.com)
 
-### Angular libraries and components
+
+### Components libraries, components & UI frameworks
+#### Angular
 - [primeng](https://www.primefaces.org/primeng/#/)
 - [onsen](https://onsen.io/)
 - [covalent](https://teradata.github.io/covalent/v4/#/)
 - [nebular](https://akveo.github.io/nebular/docs/components/components-overview/)
+
+#### Svelte
+- [shadcn-svelte](https://www.shadcn-svelte.com/)
 
 
 ## Photography
